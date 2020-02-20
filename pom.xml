@@ -11,7 +11,7 @@
 	<groupId>com.mythili</groupId>
 	<artifactId>MyWebApp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ROOT</name>
+	<name>MyWebApp</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
