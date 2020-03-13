@@ -36,13 +36,13 @@ public class AlienController
 	@RequestMapping("/")
 	public String home()
 	{
-		return "home.jsp";
+		return "home";
 	}
 	@RequestMapping("/addAlien")
 	public String addAlien(Alien alien)
 	{
 		repo.save(alien);
-		return "home.jsp";
+		return "home";
 	}
 	@RequestMapping(path="/aliens",produces= {"application/xml"})
 	@ResponseBody
@@ -70,7 +70,7 @@ public class AlienController
         	 model.addAttribute("word", sent.word(1));
         }
        
-        return "home.jsp";	
+        return "home";	
 		
 	}
 }
