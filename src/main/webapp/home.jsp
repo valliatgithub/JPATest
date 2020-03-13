@@ -15,5 +15,14 @@
 <input type="submit"><br>
 </form>
 
+<form action="processUtterance">
+<input type="text" name="input"><br>
+<input type="submit"><br>
+</form>
+
+<form>
+<p><b>#{word}</b></p>
+</form>
+
 </body>
 </html>
